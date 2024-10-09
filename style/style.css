@@ -3,6 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Azeret Mono", monospace;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+/* common file  */
+.color{
+    color: #0d1321;
+}
+.btn-One{
+    padding: 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+
+/* nav bar design here  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.hero-bg{
+    height: 86vh;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hore-content{
+    width: 998px;
+    height: 581px;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+.heroDescription{
+    margin: 24px;
+}
+.btn-Color{
+    background-color: #0d1321;
+    color: white;
 }
