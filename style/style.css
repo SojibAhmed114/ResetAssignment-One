@@ -140,4 +140,36 @@ main{
 .iframeVideo iframe{
     padding: 32px;
 }
+/* My Current Target section start here  */
+.skills-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+.skill{
+    max-width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.skill-two{
+    background: rgba(0, 76, 232, 0.05);
+}
+.skill-three{
+    background: rgba(255, 223, 0, 0.05);
+}
+.skill-title{
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+.skill-description{
+    opacity: 0.7;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.links{
+    font-weight: 700;
+    color: #0d1321;
+}
 /* main section end here  */
