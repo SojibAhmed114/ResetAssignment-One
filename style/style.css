@@ -8,14 +8,14 @@ html{
 }
 body{
     font-family: "Azeret Mono", monospace;
-    /* max-width: 1440px;
-    margin: 0 auto; */
+    
 }
 /* common file  */
 .color{
     color: #0d1321;
 }
 .btn-One{
+    cursor: pointer;
     padding: 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -26,13 +26,32 @@ body{
     font-weight: 600;
     background-color: transparent;
 }
+#common-section-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.common-section-description{
+    opacity: 0.7;
+    color: #0d1321;
+    margin: 20px 0;
+}
+.learn-more-tbn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d1321;
+}
 
 
 /* nav bar design here  */
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    align-items: center;
+    margin: 20px 100px;
 }
 .hero-bg{
     height: 86vh;
@@ -60,3 +79,42 @@ body{
     background-color: #0d1321;
     color: white;
 }
+
+/* main section worked here  */
+main{
+    max-width: 1440px;
+    margin: 74px auto;
+    /* border: 1px solid; */
+}
+
+/* Why Web Development section start  */
+#why-web-dev-Section{
+    width: 1140px;
+    margin: auto;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.doCoding-container{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 28px;
+}
+.docoding-leftSide{
+    width: 70%;
+}
+.docoding-rightSide{
+    width: 30%;
+}
+.docoding-rightSide img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* main section end here  */
