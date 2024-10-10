@@ -86,6 +86,9 @@ body{
     background-color: #0d1321;
     color: white;
 }
+.btn-under{
+    text-decoration: none;
+}
 
 /* main section worked here  */
 main{
@@ -220,5 +223,18 @@ form{
     background-color: white;
     border-radius: 8px;
 }
-
 /* main section end here  */
+
+/* footer section here  */
+#footer-section{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-content{
+    max-width: 1140px;
+    margin: auto;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
